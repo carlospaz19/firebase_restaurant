@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "tiffany";
+}
+
+@font-face {
+  font-family: "tiffany";
+  src: url("fonts/tiffany.ttf");
+}

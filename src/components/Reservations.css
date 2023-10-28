@@ -1,0 +1,154 @@
+#waitList-section h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#waitList-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form CSS */
+
+#form {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 20%;
+  background: linear-gradient(to bottom, #dafdfc, white);
+  border: 1px solid #81d8d0;
+  padding: 50px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formField {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  height: 1.5rem;
+  margin: 0 0 1.15rem;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #74bdb7;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "tiffany";
+}
+
+button[type="button"] {
+  background: #fff;
+  height: 2.75rem;
+  margin: 1em auto auto;
+  background: #9ef1ec;
+  border: none;
+  color: black;
+  padding: 0 2rem;
+}
+
+/* Table CSS */
+
+.table-wrapper {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fl-table {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.fl-table td,
+.fl-table th {
+  text-align: center;
+  padding: 8px;
+}
+
+.fl-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 20px;
+  max-width: 100px;
+}
+
+.fl-table td button {
+  margin-top: 0px;
+}
+
+.fl-table thead th {
+  color: black;
+  background: #9ef1ec;
+}
+
+.fl-table thead th:nth-child(odd) {
+  color: black;
+  background: #8ae0d9;
+}
+
+.fl-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+/* Alert modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.modal-content {
+  margin: 25% auto;
+  padding: 20px;
+  background: linear-gradient(to bottom, #9ef1ec, white);
+  border: 1px solid #81d8d0;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modal-message {
+  font-family: "tiffany";
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
