@@ -208,26 +208,28 @@ function Reservations() {
                         <td>{client.data().diners}</td>
                         <td>{client.data().phone}</td>
                         <td>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              setId(client.id);
-                              setName(client.data().name);
-                              setAge(client.data().age);
-                              setDiners(client.data().diners);
-                              setPhone(client.data().phone);
-                              setIsUpdating(true);
-                            }}
-                          >
-                            Update
-                          </button>
-                          <span style={{ marginLeft: "10px" }}></span>
-                          <button
-                            type="button"
-                            onClick={() => handleDelete(client.id)}
-                          >
-                            Delete
-                          </button>
+                          <div id="options">
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setId(client.id);
+                                setName(client.data().name);
+                                setAge(client.data().age);
+                                setDiners(client.data().diners);
+                                setPhone(client.data().phone);
+                                setIsUpdating(true);
+                              }}
+                            >
+                              Update
+                            </button>
+                            <span style={{ marginLeft: "10px" }}></span>
+                            <button
+                              type="button"
+                              onClick={() => handleDelete(client.id)}
+                            >
+                              Delete
+                            </button>
+                          </div>
                         </td>
                       </tr>
                     );

@@ -164,7 +164,7 @@ input#img-2:checked ~ .carousel-dots label#img-dot-2 {
   }
 
   ul.slides {
-    height: 400px;
+    height: 500px;
   }
 
   .carousel-dots .carousel-dot {

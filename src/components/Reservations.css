@@ -152,3 +152,148 @@ button[type="button"] {
   letter-spacing: 2px;
   text-align: center;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #form {
+    width: 40%;
+    padding: 40px;
+  }
+
+  .modal-content {
+    margin: 50% auto;
+    width: 50%;
+  }
+
+  .table-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span {
+    margin: 3px 0;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 767px) {
+  #form {
+    width: 60%;
+    padding: 30px;
+  }
+
+  #form button {
+    margin-top: 5px;
+  }
+
+  .modal-content {
+    margin: 50% auto;
+    width: 50%;
+  }
+
+  #modal-message {
+    font-size: 25px;
+  }
+
+  .table-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 0px;
+    width: 90%;
+  }
+
+  .fl-table th,
+  .fl-table td {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .fl-table td {
+    font-size: 15px;
+  }
+
+  .fl-table th:nth-child(2), /* Oculta la tercera columna */
+  .fl-table td:nth-child(2) {
+    display: none;
+  }
+
+  #options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #options button {
+    width: 100px;
+  }
+
+  span {
+    margin: 3px 0;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  #form {
+    width: 60%;
+    padding: 30px;
+  }
+
+  #form button {
+    margin-top: 5px;
+  }
+
+  .modal-content {
+    margin: 50% auto;
+    width: 50%;
+  }
+
+  #modal-message {
+    font-size: 25px;
+  }
+
+  .table-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 0px;
+    width: 90%;
+  }
+
+  .fl-table th,
+  .fl-table td {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .fl-table td {
+    font-size: 15px;
+  }
+
+  .fl-table th:nth-child(2), /* Oculta la tercera columna */
+  .fl-table td:nth-child(2) {
+    display: none;
+  }
+
+  #options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #options button {
+    width: 100px;
+  }
+
+  span {
+    margin: 3px 0;
+  }
+}
