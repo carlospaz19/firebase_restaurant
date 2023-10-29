@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "tiffany";
+  background-color: white;
+  color: black;
 }
 
 @font-face {
