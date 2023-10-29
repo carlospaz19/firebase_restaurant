@@ -93,6 +93,8 @@ button[type="button"] {
 
 .fl-table td button {
   margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .fl-table thead th {
@@ -107,6 +109,10 @@ button[type="button"] {
 
 .fl-table tr:nth-child(even) {
   background: #f8f8f8;
+}
+
+span {
+  margin: 3px 0;
 }
 
 /* Alert modal */
