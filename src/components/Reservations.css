@@ -45,6 +45,7 @@ input[type="number"] {
   font-size: 20px;
   margin-top: 10px;
   font-family: "tiffany";
+  color: black;
 }
 
 button[type="button"] {
