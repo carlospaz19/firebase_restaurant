@@ -144,7 +144,7 @@ function Reservations() {
             <div className="formField">
               <label htmlFor="phone">Phone</label>
               <input
-                type="text"
+                type="number"
                 id="phone"
                 autoComplete="off"
                 value={phone}

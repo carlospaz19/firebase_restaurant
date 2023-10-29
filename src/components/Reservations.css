@@ -82,7 +82,7 @@ button[type="button"] {
 .fl-table td,
 .fl-table th {
   text-align: center;
-  padding: 8px;
+  padding: 5px;
 }
 
 .fl-table td {
@@ -109,6 +109,12 @@ button[type="button"] {
 
 .fl-table tr:nth-child(even) {
   background: #f8f8f8;
+}
+
+.fl-table #options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 span {
@@ -175,7 +181,7 @@ span {
     margin-right: 0px;
   }
 
-  #options {
+  .fl-table #options {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -230,7 +236,7 @@ span {
     display: none;
   }
 
-  #options {
+  .fl-table #options {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -289,7 +295,7 @@ span {
     display: none;
   }
 
-  #options {
+  .fl-table #options {
     display: flex;
     flex-direction: column;
     justify-content: center;
