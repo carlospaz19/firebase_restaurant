@@ -96,6 +96,8 @@ button[type="button"] {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  width: 100px;
+  padding: 0px;
 }
 
 .fl-table thead th {

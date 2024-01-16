@@ -8,7 +8,7 @@
   background: linear-gradient(to bottom, #dafdfc, white);
   border: 1px solid #bdc3c7;
   box-shadow: 2px 2px 5px #81d8d0;
-  height: 55vh;
+  height: 650px;
   width: 90vw;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -29,13 +29,13 @@
 
 #welcome_right {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   width: 50%;
 }
 
 #welcome_right img {
-  height: 500px;
+  height: 400px;
 }
 
 #welcome_bottom {
